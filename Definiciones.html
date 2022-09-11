@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es-MX" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Práctica 5</title>
+  </head>
+  <body>
+    <div>
+      <h1>Etiquetas HTML</h1>
+
+      <p>
+        <ul>
+          <li><strong>&ltdl&gt &lt\dl&gt</strong> Usadas para crear una lista de definiciones.</li>
+          <li><strong>&ltdt&gt &lt\dt&gt</strong> Representa un término definido por la siguiente etiqueta &ltdd&gt</li>
+          <li><strong>&ltdd&gt &lt\dd&gt</strong> Se usa para definir los términos listados antes que él.
+          <p>Por ejemplo: <br>
+          &ltdl&gt <br>
+          <dl>
+            <dt>&ltdt&gtHTML&lt\dt&gt</dt>
+            <dd>&ltdd&gtSiglas en inglés de HyperText Markup Language.&lt\dt&gt</dd>
+            <dd>&ltdd&gtSignifica lenguajes de marcas de hipertexto.&lt\dd&gt</dd>
+          </dl>
+          &lt\dl&gt <br><br>
+          </li>
+          <li><strong>&ltblockquote&gt &lt/blockquote&gt</strong> Crea citas en bloque, marca las citas a otros autores o documentos.
+            <p>Por ejemplo: <br>
+            El lenguaje HTML es &ltblockquote&gt<blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML">el componente más básico de la Web. Define el significado y la estructura del contenido web.</blockquote>&lt\blockquote&gt
+            <br><br>
+          </li>
+          <li><strong>&ltq&gt &lt\q&gt</strong> Indica que el texto adjunto es una cita corta en línea.
+            <p>Por ejemplo: <br>
+            La mayoría de páginas web tienen &ltq&gt<q cite="https://www.iebschool.com/blog/que-es-etiqueta-html-analitica-usabilidad/#:~:text=Hay%20una%20serie%20de%20etiquetas%20que%20son%20las,%26lt%3Bspan%26gt%3B%20para%20estilos%20de%20una%20parte%20del%20texto">por ejemplo, una página de inicio, otra de producto, otra de contacto, etc.</q>&lt\q&gt
+            </p>
+          </li>
+          <li><strong>&ltcite&gt &lt\cite&gt</strong> Marca una referencia a una fuente, o el autor de un texto citado.
+            <p>Por ejemplo: <br>
+            &ltcite&gt<cite>Galileo</cite>&lt\cite&gt dijo: "... y sin embargo, se mueve."
+            </p>
+          </li>
+          <li><strong>&ltabbr&gt &lt\abbr&gt</strong> Representa una abreviación o acrónimo.
+            <p>Por ejemplo: <br>
+            Esto fue crado por &ltabbr&gt<abbr title="Hypertext Markup Language">HTML</abbr>&lt\abbr&gt
+            </p>
+          </li>
+          <li><strong>&ltaddress&gt &lt\taddress&gt</strong>Aporta información de contacto para &ltarticle&gt más cercano o ancestro &ltbody&gt.
+            <p>Por ejemplo: <br>
+            <address>
+              You can contact author at <a href="http://www.somedomain.com/contact">www.somedomain.com</a>.<br>
+              If you see any bugs, please <a href="mailto:webmaster@somedomain.com">contact webmaster</a>.<br>
+              You may also want to visit us:<br>
+              Mozilla Foundation<br>
+              1981 Landings Drive<br>
+              Building K<br>
+              Mountain View, CA 94043-0801<br>
+              USA <br><br>
+            </address>
+          </li>
+          <li><strong>&ltsub&gt &lt\sub&gt</strong> Utilizado para los subíndices.
+            <p>Por ejemplo: <br>
+            La fórmula química del oxono es: O&ltsub&gt<sub>3</sub>&lt\sub&gt
+            <\p>
+          </li>
+          <li><strong>&ltsup&gt &lt\sup&gt</strong> Utilizado para los superíndices.
+            <p>Por ejemplo: <br>
+            El C&ltsup&gt<sup>14</sup>&lt\sup&gt se utiliza para la determinación de la edad de un vestigio orgánico.
+            </p>
+          </li>
+          <li><strong>&ltcode&gt &lt\code&gt</strong> Apropiado para marcar el código de un programa.
+            <p>Por ejemplo: <br>
+            &ltcode&gt <br>
+            <code>
+             #include main() { for(;;) { printf ("Hello World!\n"); } }
+            </code>
+            <br>&lt\code&gt <br>
+            </p>
+          </li>
+          <li><strong>&ltpre&gt &lt\pre&gt</strong> Representa texto preformateado.
+            <p>Por ejemplo: <br>
+              &ltpre&gt <br>
+              <pre>
+                body{
+                  color:  red;
+                }
+                a   {
+                  color:green;
+                }
+              </pre>
+              &lt\pre&gt <br><br>
+          </li>
+          <li><strong>&ltvar&gt &ltvar&gt</strong>Su función es resaltar texto en el documento web, indicando que el mismo son la definición de variables en un programa de ordenador.
+            <p>Por ejemplo: <br>
+              El programa que se está analizando es el siguiente<br>
+              &ltvar&gt<var>int x;</var>&ltvar&gt <br>
+              &ltvar&gt<var>int y;</var>&ltvar&gt <br>
+              Se ha solicitado la creación de dos variables</p><br>
+          </li>
+          <li><strong>&ltkdb&gt &ltkdb&gt</strong> Permite especificar un formato de texto para distinguir lo que el usuario tendría que teclear en la solicitud de un programa.
+            <p>Por ejemplo: <br>
+              Ha de teclear una dirección valida de internet:<br>
+              <kbd>www.aprendoencasa.com</kbd> a continuación pulsar Intro
+            </p>
+          </li>
+          <li><strong>&ltsamp&gt &ltsamp&gt</strong> Se utiliza para incluir texto en línea que representa una muestra (o cita) de la salida de un programa de ordenador.
+            <p>Por ejemplo: <br>
+              &ltsamp&gt<samp>Keyboard not found press F1 to continue</samp>&ltsamp&gt
+            </p>
+          </li>
+          <li><strong>&lttime&gt &lt\time&gt</strong> Representa un periodo específico en el tiempo.
+            <p>Por ejemplo: <br>
+              La pelicula empieza a las &lttime&gt<time datetime="20:00">20:00</time>&lt\time&gt
+            </p>
+          </li>
+        </ul>
+      </p>
+    </div>
+  </body>
+</html>
